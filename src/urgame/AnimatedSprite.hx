@@ -37,6 +37,9 @@ class AnimatedSprite extends Sprite
 	// ============================================= PUBLIC FUNCTIONS ============================================= //
 	public function addAnimation(animationName : String, frameArray : Array<Int>, animationSpeed : Float = 1)
 	{
+		if ( owner != null )
+			throw("Cannot add animation after being added to the scene. Call this before onAdded triggers.");
+		
 		_animationList.set(animationName, new AnimationSet(animationName, frameArray, animationSpeed));
 		updateHighestFrameCount(frameArray.length);
 	}
