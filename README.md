@@ -1,6 +1,9 @@
 # Flambe-AnimatedSprite
-A simple system for quickly playing animations using a group of single images as an alternative to using Flump
+AnimatedSprite is a simple tool for making animated graphics using single separate images. It is not as robust as other animation tools but it is perfect for small scale and simple sprite animations.
 
+This tool is inspired by the animation toolkit of Flixel (http://haxeflixel.com/documentation/flxsprite/#animation).
+
+# Working Example
 Check it out in action here: http://accidentalrebel.github.io/Flambe-AnimatedSprite/
 
 #How to Use
