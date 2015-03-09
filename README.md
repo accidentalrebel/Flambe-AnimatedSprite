@@ -6,7 +6,7 @@ This tool is inspired by the animation toolkit of Flixel (http://haxeflixel.com/
 # Working Example
 Check it out in action here: http://accidentalrebel.github.io/Flambe-AnimatedSprite/
 
-# Createing an AnimatedSprite object
+# Creating an AnimatedSprite object
 
 ```
 _animatedSprite = new AnimatedSprite(assetPack, textureArray); 
