@@ -6,6 +6,9 @@ This tool is inspired by the animation toolkit of Flixel (http://haxeflixel.com/
 # Working Example
 Check it out in action here: http://accidentalrebel.github.io/Flambe-AnimatedSprite/
 
+# Roadmap
+* Use of texture atlasses
+
 # Creating an AnimatedSprite object
 
 ```
